@@ -6,6 +6,7 @@ set.seed(1314)
 train <- read.csv("../input/train.csv")
 test  <- read.csv("../input/test.csv")
 
+
 ##### Removing IDs
 train$ID <- NULL
 test.id <- test$ID
